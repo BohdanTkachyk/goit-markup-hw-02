@@ -238,3 +238,50 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+
+/* --------------------------PORTFOLIO--------------------------------- */
+
+.main-list {}
+
+.main-item {}
+
+.main-btn {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  color: #FFFFFF;
+}
+
+.project {}
+
+.project-list {}
+
+.project-link {}
+
+.project-picture {}
+
+.project-title {
+  font-weight: 700;
+  line-height: 2.0;
+  letter-spacing: 0.06em;
+  color: #212121;
+  font-size: 18px;
+}
+
+.project-text {
+  font-weight: 400;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+  font-size: 16px;
+}
