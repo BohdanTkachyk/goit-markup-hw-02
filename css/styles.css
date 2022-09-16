@@ -1,5 +1,11 @@
+:root {
+  --color-title: #212121;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
+  color: #757575;
 }
 
 /* ----------------HEADER-------------------- */
@@ -86,6 +92,7 @@ body {
 /* ------------HERO------------------- */
 
 .hero {
+  background-color: #2F303A;
 }
 
 .hero-title {
@@ -99,6 +106,8 @@ body {
 }
 
 .hero-btn {
+  cursor: pointer;
+  background-color: #2196F3;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -122,31 +131,27 @@ body {
 }
 
 .features-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-title);
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 
 /* -------SECTION 2--------- */
 
 .works-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-title);
 }
 
 .works-list {
@@ -166,7 +171,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-title);
 }
 
 .team-list {
@@ -181,26 +186,25 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-title);
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 
 /* ---------FOOTER---------- */
 
 .footer {
+  background-color: #2F303A;
 }
 
 .footer-logo {
   text-decoration: none;
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -249,17 +253,19 @@ body {
 .main-item {}
 
 .main-btn {
+  cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  font-size: 16px;
 }
 
 .main-btn:hover,
 .main-btn:focus {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .project {}
@@ -271,17 +277,14 @@ body {
 .project-picture {}
 
 .project-title {
-  font-weight: 700;
   line-height: 2.0;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--color-title);
   font-size: 18px;
 }
 
 .project-text {
-  font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
   font-size: 16px;
 }
