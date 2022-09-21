@@ -2,6 +2,15 @@
   --color-title: #212121;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -11,7 +20,7 @@ body {
 /* ----------------HEADER-------------------- */
 
 .logo {
-  font-family: 'Raleway', sans-serif;  
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -58,7 +67,6 @@ body {
 .contacts-item {
 }
 
-
 .contacts-mail {
   text-decoration: none;
   font-style: normal;
@@ -92,7 +100,7 @@ body {
 /* ------------HERO------------------- */
 
 .hero {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -107,7 +115,7 @@ body {
 
 .hero-btn {
   cursor: pointer;
-  background-color: #2196F3;
+  background-color: #2196f3;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -199,7 +207,7 @@ body {
 /* ---------FOOTER---------- */
 
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .footer-logo {
@@ -243,14 +251,13 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-
-
-
 /* --------------------------PORTFOLIO--------------------------------- */
 
-.main-list {}
+.main-list {
+}
 
-.main-item {}
+.main-item {
+}
 
 .main-btn {
   cursor: pointer;
@@ -268,16 +275,20 @@ body {
   color: #ffffff;
 }
 
-.project {}
+.project {
+}
 
-.project-list {}
+.project-list {
+}
 
-.project-link {}
+.project-link {
+}
 
-.project-picture {}
+.project-picture {
+}
 
 .project-title {
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-title);
   font-size: 18px;
